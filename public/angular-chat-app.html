@@ -1,47 +1,47 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Angular - Chat App</title>
-        <link rel="stylesheet" href="bower_components/foundation/css/foundation.css" />
-        <link rel="stylesheet" href="css/app.css" />
-        <script src="bower_components/foundation/js/vendor/modernizr.js"></script>
-    </head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Angular - Chat App</title>
+	<link rel="stylesheet" href="bower_components/foundation/css/foundation.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="bower_components/foundation/js/vendor/modernizr.js"></script>
+</head>
 
-    <body>
+<body>
 
-        <div class="row">
-            <div class="large-12 columns">
-                <h1>Angular Chat App</h1>
-            </div>
-        </div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Angular Chat App</h1>
+		</div>
+	</div>
 
-        <!-- Angular's container -->
-        <div class="row" >
-            <div class="large-12 columns angularWrapper">
-                <div id="container" class="panel">
-                    <div ng-app="angularChatApp" >
-	              		<input type="text" ng-model="firstChat" placeholder="Chat.....">
-	              		<hr>
-	              		<h1>Translated</h1>
-	             		<h2>{{firstChat}}</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+	<!-- Angular's container -->
+	<div class="row" >
+		<div class="large-12 columns angularWrapper">
+			<div id="container" class="panel">
 
-        <!-- JavaScript libraries -->
-        <script src="bower_components/foundation/js/vendor/jquery.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="bower_components/angular/angular.min.js"></script>
-        <script src="bower_components/angular-foundation/mm-foundation-tpls.min.js"></script>
-        <script src="bower_components/angular-foundation/mm-foundation.min.js"></script>
-        <!-- Application components. A build step would be nice here. -->
-        <script src="app/AngularChat.js"></script>
+				<div ng-app="angularChatApp" >
+					<input type="text" ng-model="firstChat" placeholder="Chat.....">
+					<hr>
+					<h1>Translated</h1>
+					<h2>{{firstChat}}</h2>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<!-- JavaScript libraries -->
+	<script src="bower_components/foundation/js/vendor/jquery.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-foundation/mm-foundation-tpls.min.js"></script>
+	<script src="bower_components/angular-foundation/mm-foundation.min.js"></script>
+	<!-- Application components. A build step would be nice here. -->
+	<script src="app/AngularChat.js"></script>
 
-    </body>
+</body>
 
 </html>
